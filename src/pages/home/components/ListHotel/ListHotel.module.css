@@ -1,0 +1,62 @@
+.wrapperListHotel {
+    margin-bottom: 70px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.listHotel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+    gap: 20px;
+
+}
+
+.listHotel-item {
+    color: #444444;
+}
+
+.listHotel-item_img {
+    width: 100%;
+    height: 250px;
+}
+
+.listHotel-item_name {
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.listHotel-item_name:hover {
+    color: #6c6792;
+    text-decoration: underline;
+}
+
+.listHotel-item_city {
+    margin-bottom: 10px;
+}
+
+.listHotel-item_price {
+    margin-bottom: 10px;
+    font-weight: 600
+}
+
+.listHotel-item_rate {
+    background-color: #003580;
+    padding: 5px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.listHotel-item_type {
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    .listHotel {
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,90 @@
+/* ============== Wrapper Homepage ============ */
+.wrapperHomePage {
+    background-color: #003580;
+    color: #ffff;
+
+}
+
+.wrapperHomePage h1 {
+    margin-bottom: 15px;
+}
+
+.wrapperHomePage p {
+    margin-bottom: 12px;
+}
+
+.wrapperHomePage button {
+    cursor: pointer;
+    background-color: #0071C2;
+    border: none;
+    color: #ffff;
+    padding: 15px 20px;
+}
+
+.wrapperHomePage-main {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/* ============== Form Home Page ============ */
+.formSearch {
+    width: 968px;
+    position: absolute;
+    bottom: -15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #ffff;
+    border: 3px solid #FEBB02;
+    border-radius: 12px;
+    color: #000;
+}
+
+.formControl input {
+    border: none;
+    outline: none;
+    color: #766f6f;
+    position: relative;
+}
+
+.formControl input[type="number"] {
+    width: 100px;
+
+}
+
+.formControl label span {
+    color: #D3D3D3;
+    margin-right: 10px;
+}
+
+.formActions button {
+    background-color: #0071C2;
+    border: none;
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+
+.date {
+    position: absolute;
+    bottom: -380px;
+    left: 200px;
+    z-index: 100;
+}
+
+@media only screen and (max-width: 768px) {
+    .formSearch {
+        width: 100%;
+        display: block;
+    }
+
+    .formControl {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .info {
+        display: none;
+    }
+}

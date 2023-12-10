@@ -1,0 +1,137 @@
+.ListSearch {
+    margin-bottom: 30px;
+}
+
+.ListSearch-item {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+
+.ListSearch-item-group {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
+}
+
+.ListSearch-item_img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Text */
+.ListSearch-item_info-title {
+    color: #1894E1;
+}
+
+.ListSearch-item_info-tag {
+    padding: 5px 3px;
+    background-color: #008009;
+    color: #ffff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.ListSearch-item_info-description {
+    width: 300px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.ListSearch-item_info-type,
+.ListSearch-item_info-distance,
+.ListSearch-item_info-free_cancel,
+.ListSearch-item_info-free_cancelDes,
+.ListSearch-item_info-description,
+.ListSearch-item_info-tag,
+.ListSearch-item_info-title {
+    margin-bottom: 10px;
+}
+
+.ListSearch-item_info-title {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.ListSearch-item_info-title:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.ListSearch-item_info-type {
+    width: 300px;
+}
+
+.ListSearch-item_info-free_cancel,
+.ListSearch-item_info-free_cancelDes {
+
+    color: #008009;
+}
+
+.ListSearch-item_info-no-free_cancel {
+    font-weight: bold;
+}
+
+.ListSearch-item_actions-rate-text {
+    text-transform: uppercase;
+}
+
+/* Actions */
+.ListSearch-item_actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ListSearch-item_actions-rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ListSearch-item_actions-rate-number {
+    padding: 5px;
+    background-color: #003580;
+    color: #fff;
+}
+
+.ListSearch-item_actions-price {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.ListSearch-item_actions-sub {
+    text-align: right;
+    font-size: 11px;
+    color: #93979d;
+    margin-bottom: 5px;
+}
+
+.ListSearch-item_actions-btn {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background-color: #0071C2;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .ListSearch-item,
+    .ListSearch-item-group {
+        grid-template-columns: 1fr;
+    }
+}

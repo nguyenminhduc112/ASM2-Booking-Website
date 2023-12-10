@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0074e4;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.activeBooked,
+.activeCheckin,
+.activeCheckout {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.activeBooked {
+    background-color: #F69685;
+    color: #000000;
+}
+
+.activeCheckin {
+    background-color: #39d139;
+    color: #000000;
+}
+
+.activeCheckout {
+    background-color: #D3D0F2;
+    color: #000000;
+}

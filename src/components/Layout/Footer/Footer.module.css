@@ -1,0 +1,25 @@
+.listMenuFooter {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr 2fr;
+    justify-items: stretch;
+    column-gap: 50px;
+    margin-bottom: 50px;
+    color: #003580;
+}
+
+.MenuFooterItem-value {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.MenuFooterItem-value:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+    .listMenuFooter {
+        display: none;
+    }
+
+}

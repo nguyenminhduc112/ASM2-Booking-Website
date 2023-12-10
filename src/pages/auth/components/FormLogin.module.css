@@ -1,0 +1,43 @@
+.formWrapper {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.form {
+    width: 500px;
+}
+
+.title {
+    text-align: center;
+    color: #003580;
+    margin-bottom: 50px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #4b4d4f;
+}
+
+.input:focus {
+    outline: 1px solid #003580;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #003580;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}

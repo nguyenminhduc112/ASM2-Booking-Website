@@ -1,0 +1,44 @@
+.wrapperListType {
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.listType {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: stretch;
+    gap: 20px;
+}
+
+.listType-item {
+    color: #444444;
+}
+
+.listType-item_img {
+    width: 100%;
+    height: 140px;
+    border-radius: 12px;
+
+}
+
+.listType-item_count {
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.listType-item_name {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .listType {
+        grid-template-columns: 1fr;
+    }
+
+    .listType-item_img {
+        height: auto;
+    }
+}

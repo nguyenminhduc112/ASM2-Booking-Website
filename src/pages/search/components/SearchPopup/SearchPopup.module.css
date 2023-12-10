@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapperSearchPopup {
+    padding: 15px 10px;
+    background-color: #FEBB02;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+.formGroup,
+.formGroupSub {
+    margin-bottom: 10px;
+}
+
+.formGroupSub {
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.labelForm {
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+}
+
+.inputForm {
+    width: 100%;
+    padding-left: 10px;
+    height: 50px;
+    font-size: 17px;
+}
+
+.labelSubForm {
+    font-size: 12px;
+    color: #555555;
+}
+
+.inputSubForm {
+    width: 100%;
+}
+
+.btnSubmit {
+    width: 100%;
+    background-color: #0071C2;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #ffff;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapperSearchPopup {
+        max-width: 100%;
+    }
+}
